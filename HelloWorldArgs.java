@@ -3,7 +3,8 @@ public class HelloWorldArgs{
       System.out.println("Number of Command Line Argument(s) = "+args.length);	
 
       for(int i = 0; i< args.length; i++) {
-	System.out.println(String.format("Hello World %s (position %d) ", args[i], i));
+	System.out.println(String.format("Hello World %s (argument position %d) ", args[i], i));
+        System.out.println("Test Github");
       }
     }
 }
